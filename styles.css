@@ -1,0 +1,17 @@
+body{
+    font-family: sans-serif;
+}
+#container{
+    display: grid;
+    grid-template-columns: 1200px;
+    grid-template-rows: 200px 200px 200px;
+}
+#container > #green-box{
+    background-color: #009E60;
+}
+#container > #yellow-box{
+    background-color: #FCD116;
+}
+#container > #blue-box{
+    background-color: #4664B2;
+}
